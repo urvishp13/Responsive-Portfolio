@@ -216,13 +216,26 @@ input[type=submit] {
   border: 0 none;
 }
 
-/* @media screen and (max-width: 980px) {
+@media screen and (max-width: 980px) {
   .main-section {
-    width: 65%;
+    width: 70%;
   }
-} */
+
+  #logo {
+    margin-left: 30px;
+  }
+
+  nav {
+    margin-right: 30px;
+  }
+  
+}
 
 @media screen and (max-width: 768px) {
+  .main-section {
+    width: 100%;
+  }
+  
   #logo {
     margin-left: 20px;
   }
@@ -241,6 +254,10 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 640px) {
+  .main-section {
+    width: 100%;
+  }
+
   #logo {
     width: 100%;
     margin-left: 0;
