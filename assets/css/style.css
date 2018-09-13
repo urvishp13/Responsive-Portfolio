@@ -218,7 +218,7 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
   .main-section {
-    width: 70%;
+    width: 640px;
   }
 
   #logo {
@@ -227,6 +227,10 @@ input[type=submit] {
 
   nav {
     margin-right: 30px;
+  }
+
+  .work {
+    width: 45%;
   }
   
 }
